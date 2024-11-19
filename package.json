@@ -5,8 +5,9 @@
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "db:push": "drizzle-kit push",
-    "db:std": "drizzle-kit studio",
+    "db:gen": "prisma generate",
+    "db:push": "prisma db push",
+    "db:std": "prisma studio",
     "lint": "biome format --write .",
     "check:lint": "biome check --fix --unsafe"
   },
