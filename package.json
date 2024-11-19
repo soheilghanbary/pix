@@ -1,6 +1,6 @@
 {
-  "name": "nix",
-  "version": "3.0.0",
+  "name": "pix",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
